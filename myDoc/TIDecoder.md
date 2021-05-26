@@ -178,8 +178,13 @@ psdk_rtos_auto_j7_xx/tiovx/kernels_j7/hwa/test/test_video_decoder.c
 - width
 - height
 - bitstream_sizes
-### 4.5Finding Bitstream Sizes
+### 4.5Finding Slipstream Sizes
 下面的一系列命令打印出输入文件中每个帧的大小。
 ```
 ffprobe -show_packets <input_file>.264 | grep "size" | awk -F '=' '{print $2}'
 ```
+
+
+
+> <file:///home/weimengchuan/weimengchuan/TDA4/ti-processor-sdk-rtos-j721e-evm-07_02_00_06/video_codec/docs_decoder/user_guide/rtos_docs/TI_DISCLAIMER.html>
+
